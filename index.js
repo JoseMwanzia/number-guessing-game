@@ -13,8 +13,6 @@ async function difficultyPrompt() {
 
 async function guessPrompt(chances) {
   const correctAnswer = Math.floor(Math.random() * 100 +1)
-  // const correctAnswer = 20
-  console.log(correctAnswer);
   let guesAnswer;
   let correctNess;
   let attempts= 0;
